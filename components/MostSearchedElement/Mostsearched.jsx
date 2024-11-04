@@ -88,7 +88,7 @@ const MostSearchedItems = () => {
             <div className="item-card">
               <div className="item-image-container">
                 <img 
-     src='../Assets/images/img1.jpg'
+                 src='/Assets/images/img1.jpg'
                   alt={item.title} 
                   className="item-image" 
                 />
