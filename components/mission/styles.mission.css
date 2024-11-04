@@ -1,0 +1,40 @@
+.mission-container {
+    background-color:rgb(221, 207, 200);
+    display: flex;
+    width: 90%;
+    color: rgb(7, 5, 5);
+    margin: 20px auto; /* Center the container with auto margins */
+    height:800px;
+    align-items: center; /* Center align items vertically */
+    justify-content: space-between; 
+    padding: 40px;
+    border-radius: 50px; /* Rounded corners for aesthetics */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); 
+    text-align: left; /* Change text alignment to left */
+}
+  
+.text-container {
+    max-width: 50%; /* Limit the width of the text container */
+    padding-right: 10px; 
+    font-size: 40px;
+    font-family: cursive; /* Space between text and video */
+}
+  
+.title2 {
+    font-size: 2rem; /* Adjust the title size */
+    margin-bottom: 15px; /* Space below title */
+}
+  
+.video-wrapper {
+    width: 500px; /* Set a fixed width for the video wrapper */
+    height: 650px; /* Set a fixed height for the video wrapper */
+    border-radius: 20px; /* Rounded corners for aesthetics */
+    overflow: hidden; /* Ensures the video does not overflow the container */
+}
+  
+.video {
+    width: 100%; /* Fill the width of the wrapper */
+    height: 100%; /* Fill the height of the wrapper */
+    object-fit: cover; /* Ensure the video covers the wrapper without distorting */
+    border-radius: 20px; /* Match the theme */
+}

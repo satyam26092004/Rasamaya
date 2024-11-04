@@ -1,0 +1,52 @@
+.recipe-book-container {
+    max-width: 50%;
+    height: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 400px;
+    font-family: cursive;
+  }
+ .recipe-book-container img{
+    height: 600px;
+    width: 500px;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    color: black;
+    margin-bottom: 20px;
+  }
+  
+  .book-cover {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .buy-button {
+    background-color: #1abc9c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background-color 0.3s;
+  }
+  
+  .buy-button:hover {
+    background-color: #16a085;
+  }

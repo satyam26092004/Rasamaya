@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Dancing+Script:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Moon+Dance&family=Pacifico&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+.about-us-container {
+     /* Set a max width for the container */
+    margin: 100px auto; /* Center the container */
+   padding-left: 40px;
+    text-align: center; /* Center text */
+    font-family: "Dancing Script", serif;
+  display: flex;
+  padding-bottom: 0;
+  margin-bottom: -50px;
+
+  font-weight:900;
+  font-style: normal;
+    height: auto;
+    width:95%;
+    font-size:35px; /* Subtle shadow */
+  }
+  
+  
+  .title {
+    font-size: 2.5rem; /* Font size for the title */
+    color: #1abc9c; /* Title color */
+    margin-bottom: 1rem; /* Space below the title */
+  }
+  
+  .image-wrapper {
+    margin-top: 2rem; 
+    margin-bottom: 8rem;
+    padding-bottom: 20px;/* Space above the image */
+  }
+  
+  .about-image {
+    width: 550px; /* Full width of the container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px;
+    /* Rounded corners for the image */
+  }
