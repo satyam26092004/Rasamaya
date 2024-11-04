@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Loading from "../components/Loading";
 import Slider from "../components/Slider";
 import Mostsearched from "../components/MostSearchedElement/Mostsearched"; 
-import SearchBar from "../components/SearchBar/SearchBar";
+import SearchBar from "../components/SearchBar/searchBar";
 import ContactUs from "../components/contactus/contactus";
 import Mission from "../components/mission/mission";
 import AboutUs from "../components/aboutus/aboutus";
