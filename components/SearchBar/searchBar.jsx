@@ -15,7 +15,7 @@ const SearchBar = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   
   const YOUTUBE_API_KEY = "AIzaSyAzD22RF1f2ozKhrUqDVdD2772LkNZNlDM";
-  const API_KEY = "e8507b5612ba406cb2f9a6ef9af6aeb4";
+  const API_KEY = "6a7ec01b2e694b17945b4a557fbd0e7f";
 
   useEffect(() => {
     const fetchFoodData = async () => {
