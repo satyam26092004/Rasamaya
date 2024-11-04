@@ -5,6 +5,15 @@ import { faClock } from '@fortawesome/free-regular-svg-icons';
 import { faSignal, faStar, faHeart } from '@fortawesome/free-solid-svg-icons';
 import './style.Mostseached.css';
 
+// Import images
+import img1 from '../Assets/images2/img1.png';
+import img2 from '../Assets/images2/img2.png';
+import img3 from '../Assets/images2/img3.png';
+import img4 from '../Assets/images2/img4.png';
+import img5 from '../Assets/images2/img5.png';
+import img6 from '../Assets/images2/img6.png';
+
+
 const searchedItems = [
   {
     id: 1,
@@ -14,7 +23,8 @@ const searchedItems = [
     time: '45 mins',
     difficulty: 'Medium',
     cuisine: 'Indian',
-    likes: '2.3k'
+    likes: '2.3k',
+    image: img1 // Associate the imported image
   },
   {
     id: 2,
@@ -24,7 +34,8 @@ const searchedItems = [
     time: '30 mins',
     difficulty: 'Easy',
     cuisine: 'North Indian',
-    likes: '1.8k'
+    likes: '1.8k',
+    image: img2 // Associate the imported image
   },
   {
     id: 3,
@@ -34,7 +45,8 @@ const searchedItems = [
     time: '40 mins',
     difficulty: 'Medium',
     cuisine: 'South Indian',
-    likes: '1.5k'
+    likes: '1.5k',
+    image: img3 // Associate the imported image
   },
   {
     id: 4,
@@ -44,7 +56,8 @@ const searchedItems = [
     time: '60 mins',
     difficulty: 'Hard',
     cuisine: 'Kashmiri',
-    likes: '2.1k'
+    likes: '2.1k',
+    image: img4 // Associate the imported image
   },
   {
     id: 5,
@@ -54,7 +67,8 @@ const searchedItems = [
     time: '50 mins',
     difficulty: 'Medium',
     cuisine: 'North Indian',
-    likes: '3.2k'
+    likes: '3.2k',
+    image: img5 // Associate the imported image
   },
   {
     id: 6,
@@ -64,7 +78,8 @@ const searchedItems = [
     time: '35 mins',
     difficulty: 'Easy',
     cuisine: 'Indian Dessert',
-    likes: '1.9k'
+    likes: '1.9k',
+    image: img6 // Associate the imported image
   }
 ];
 
@@ -88,7 +103,7 @@ const MostSearchedItems = () => {
             <div className="item-card">
               <div className="item-image-container">
                 <img 
-                  src="/Assets/images2/img1.png"// Assuming images are named like img1.png, img2.png, etc.
+                  src={item.image} // Use the imported image
                   alt={item.title} 
                   className="item-image" 
                 />
