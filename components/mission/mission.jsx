@@ -13,7 +13,7 @@ const Mission = () => {
         </p>
       </div>
       <div className='video-wrapper'>
-        <video className='video' src="/assets/videos/video1.mp4" autoPlay muted loop />
+        <video className='video' src="/Assets/video1.mp4" autoPlay muted loop />
       </div>
     </div>
   );
