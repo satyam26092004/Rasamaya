@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
+import 'swiper/swiper-bundle.css'; // Make sure to import Swiper styles
+
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { gsap } from 'gsap';
