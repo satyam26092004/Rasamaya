@@ -14,8 +14,8 @@ const SearchBar = () => {
   const [videoUrl, setVideoUrl] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
   
-  const YOUTUBE_API_KEY = import.meta.env.VITE_YOUTUBE_API_KEY;
-  const API_KEY = import.meta.env.VITE_API_KEY;
+  const YOUTUBE_API_KEY = "AIzaSyAzD22RF1f2ozKhrUqDVdD2772LkNZNlDM";
+  const API_KEY = "e8507b5612ba406cb2f9a6ef9af6aeb4";
 
   useEffect(() => {
     const fetchFoodData = async () => {
