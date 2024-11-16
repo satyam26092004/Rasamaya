@@ -7,7 +7,7 @@ import './style.Mostseached.css';
 
 const searchedItems = [
   {
-    id: 1,
+    id: 6,
     title: 'Classic Chicken Biryani',
     description: 'Aromatic basmati rice layered with tender chicken, caramelized onions, and signature spices.',
     rating: 4.8,
@@ -17,7 +17,7 @@ const searchedItems = [
     likes: '2.3k'
   },
   {
-    id: 2,
+    id: 7,
     title: 'Creamy Paneer Butter Masala',
     description: 'Rich and creamy curry featuring soft paneer cubes in a tomato-based gravy.',
     rating: 4.6,
@@ -27,7 +27,7 @@ const searchedItems = [
     likes: '1.8k'
   },
   {
-    id: 3,
+    id: 8,
     title: 'Crispy Masala Dosa',
     description: 'Thin, crispy rice crepe filled with spiced potato mixture, served with chutneys.',
     rating: 4.7,
@@ -37,7 +37,7 @@ const searchedItems = [
     likes: '1.5k'
   },
   {
-    id: 4,
+    id: 9,
     title: 'Kashmiri Rogan Josh',
     description: 'Tender lamb slow-cooked in aromatic Kashmiri spices and yogurt.',
     rating: 4.9,
@@ -47,7 +47,7 @@ const searchedItems = [
     likes: '2.1k'
   },
   {
-    id: 5,
+    id: 10,
     title: 'Authentic Butter Chicken',
     description: 'Tandoori chicken pieces simmered in a velvety tomato-based curry.',
     rating: 4.8,
@@ -57,7 +57,7 @@ const searchedItems = [
     likes: '3.2k'
   },
   {
-    id: 6,
+    id: 11,
     title: 'Traditional Gulab Jamun',
     description: 'Soft milk-solid dumplings, deep-fried and soaked in aromatic sugar syrup.',
     rating: 4.5,
